@@ -1,6 +1,6 @@
 <?php
 require_once "house.php";
-//11
+
 class City {
 	public $name;
 	public $housePull = array();
@@ -32,7 +32,7 @@ class City {
 
     public function printAllHouses() {
     	echo $this->name . ' contains following houses: ';
-    	echo "<br />";
+    	echo "<dev>";
     	foreach ($this->getAllHouses() as $house) {
     		echo $house->getName();
     		echo "<br />";
