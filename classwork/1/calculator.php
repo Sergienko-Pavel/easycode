@@ -21,8 +21,14 @@ class Calculator implements iCalculator
          return $a * $b;
    }
 }
+<<<<<<< HEAD
 $calculator = new Calculator();
 echo $calculator->plus(1, 2); // 3
 echo $calculator->minus(4, 2); // 2
 echo $calculator->divide(4, 2); // 2
 echo $calculator->multiply(1, 2); // 2
+=======
+
+$calculator = new Calculator();
+$calculator->plus(1, 2); // 3
+>>>>>>> upstream/dev

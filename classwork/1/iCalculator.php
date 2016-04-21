@@ -1,5 +1,6 @@
 <?php
 
+
 interface iCalculator
 {
     public function plus($a, $b);
